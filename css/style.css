@@ -1,0 +1,23 @@
+/* CSS Document */
+img{
+	width: 750px;
+	height: 420px;
+}
+
+#container{
+	height: 420px;
+	margin: 0 auto;
+	border: 1px solid #CCCCCC;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+
+#container img{
+	position: absolute;
+	display: block;
+	left: 0;  /*左对齐*/
+	border-left: 1px solid #ccc;
+}
+
+
